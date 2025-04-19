@@ -20,7 +20,7 @@ connnectDB(databaseURL);
 
 app.use(
   cors({
-    origin: [process.env.ORIGIN, "http://192.168.0.103:5173", "https://chatify-backend-73lu.onrender.com"],
+    origin: [process.env.ORIGIN, "http://192.168.0.103:5173", "https://chat-application-six-peach.vercel.app"],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
